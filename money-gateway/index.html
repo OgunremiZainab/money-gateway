@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+    <!-- <script  src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+        const modal = document.getElementById("walletModal");
+        const btn = document.getElementById("walletBtn");
+        const background = document.getElementById("overlay");
+        openModal;
+
+        btn.onclick = function openModal() {
+        modal.style.display = "block";
+        background.style.display = "block";
+      }
+
+      function openModal() {
+        ("#overlay").css({"display":"block"});
+        ("#walletModal").css({"display":"block"});
+      }
+    </script> -->
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="header-container">
+            <div>
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_377_582)">
+                    <path d="M40 20H8" stroke="#151515" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M19.9997 31.6673L8.33301 20.0007L19.9997 8.33398" stroke="#151515" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_377_582">
+                    <rect width="40" height="40" fill="white"/>
+                    </clipPath>
+                    </defs>
+                    </svg>    
+            </div>
+            <div class="header">
+                <h1>Create Wallet</h1>
+                <p>Create wallet and manage your party funds easily</p>
+            </div>
+        </div>
+        <div class="form-container">
+            <form action="">
+                <label for="name">Account name</label>
+                <input type="text" name="name" id="name" placeholder="Enter account name">
+                <label for="email">Email address</label>
+                <input type="email" name="email" id="email" placeholder="Enter email address">
+                <label for="create-pin">Create 4 digit pin to validate spray/transfer</label>
+                <input type="password" name="create-pin" id="create-pin" placeholder="****">
+                <label for="confirm-pin">Confirm 4 digit pin</label>
+                <input type="password" name="confirm-pin" id="confirm-pin" placeholder="****">
+            </form>
+        </div>
+        <div id="walletBtn" >
+            <button type="submit">Create wallet</button>
+        </div>  
+    </div>
+   
+            
+       
+        
+    </div>
+    
+    
+</body>
+</html>
